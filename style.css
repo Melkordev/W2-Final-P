@@ -6,7 +6,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 50px;
     font-family: "Roboto", serif;
     text-decoration: none;
     }
@@ -25,21 +24,43 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 32px;
 }
+
+.nav__logoandname {
+    display: flex;
+    align-items: center;
+} 
 
 .nav__logo--img {
     width: 40px;
     height: 40px;
 }
 
+.nav__name {
+    color: #243e63;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12px;
+    letter-spacing: 0.6px;
+    padding-bottom: 2px;
+}
+
 .nav__links {
     display: flex;
     align-items: center;
+    list-style: none;
 }
 
 .nav__link {
+    color: #243e63;
     font-size: 14px;
     font-weight: 600;
     padding-top: 4px;
     letter-spacing: 0.35px;
+    padding-left: 24px;
+}
+
+.nav__link--login {
+    padding-left: 48px;
 }
