@@ -59,8 +59,16 @@ a {
     padding-top: 4px;
     letter-spacing: 0.35px;
     padding-left: 24px;
+    margin: 0 16px;
 }
 
 .nav__link--login {
     padding-left: 48px;
+}
+
+.nav__link--Signup {
+    color: aliceblue;
+    background-color: #6415ff;
+    padding: 10px 32px;
+    border-radius: 100px;
 }
