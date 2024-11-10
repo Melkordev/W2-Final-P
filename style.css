@@ -10,11 +10,35 @@
     text-decoration: none;
     }
 
+.purple {
+    color: #6415ff;
+}
+
 a {
     text-decoration: none;
 }
 
+.container {
+    padding: 96px 0;
+}
+
 .row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+/*  Nav Bar  */
+
+
+
+.nav__row {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -39,8 +63,8 @@ a {
 
 .nav__name {
     color: #243e63;
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 28px;
+    font-weight: 1000;
     margin-left: 12px;
     letter-spacing: 0.6px;
     padding-bottom: 2px;
@@ -71,4 +95,20 @@ a {
     background-color: #6415ff;
     padding: 10px 32px;
     border-radius: 100px;
+}
+
+/* Header */
+
+
+.header__description {
+    width: 40%;
+}
+
+.header__img--wrapper {
+    width: 60%;
+}
+
+.header__img {
+    max-width: 720px;
+    width: 100%;
 }
