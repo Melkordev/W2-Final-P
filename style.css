@@ -8,6 +8,7 @@
     box-sizing: border-box;
     font-family: "Roboto", serif;
     text-decoration: none;
+    color: #243e63;
     }
 
 .purple {
@@ -16,6 +17,11 @@
 
 a {
     text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .container {
@@ -102,6 +108,7 @@ h1 {
 
 .header__description {
     width: 40%;
+    padding-right: 16px;
 }
 
 .header__img--wrapper {
@@ -111,4 +118,25 @@ h1 {
 .header__img {
     max-width: 720px;
     width: 100%;
+}
+
+.header__description--para {
+    margin: 32px 0;
+}
+
+.header__email {
+    width: 100%;
+    max-width: 448px;
+    height: 68px;
+    align-items: center;
+}
+
+.header__email--input {
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
+    padding: 20px 192px 20px 32px;
+    font-size: 16px;
+    color: rgb(36, 62, 99);
+    top: 0;
+    bottom: 0;
 }
