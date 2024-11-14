@@ -11,9 +11,16 @@
     color: #243e63;
     }
 
+/*
+
+ACTIVATE THIS IF FEATURES LAYOUT IS NOT RIGHT.
+IF THIS IS NOT NEEDED DELETE
+
 #features {
    position: relative; 
 }
+
+*/
 
 .purple {
     color: #6415ff;
@@ -33,7 +40,7 @@ img {
 }
 
 .container {
-    padding: 96px 0;
+    padding: 80px 0;
 }
 
 .row {
@@ -250,4 +257,28 @@ h1 {
 .feature__image {
     width: 24px;
     height: 24px;
+}
+
+.feature__para {
+    margin-top: 16px;
+    font-size: 16px;
+    color: rgb(124, 139, 161);
+    line-height: 2;
+    font-weight: 500;
+}
+
+
+/* 
+
+QUALITY WORK
+
+*/
+
+
+.quality__text {
+    width: 50%;
+}
+
+.quality__image--wrapper {
+    width: 50%;
 }
