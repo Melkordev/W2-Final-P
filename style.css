@@ -310,3 +310,63 @@ QUALITY WORK
 #quality .btn {
     margin-top: 32px;
 }
+
+
+/* 
+
+STEPS
+
+*/
+
+
+#steps .row {
+    align-items: center;
+}
+
+.step {
+    display: flex;
+    margin-top: 32px;
+}
+
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
+}
+
+.step__title {
+    font-weight: 800;
+    font-size: 20px;
+    color: #243e63;
+    line-height: 1;
+}
+
+.step__para {
+    font-size: 16px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+
+.step__image--wrapper {
+    width: 50%;
+    
+}
+
+.steps__text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    padding-left: 64px;
+}
