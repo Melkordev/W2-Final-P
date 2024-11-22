@@ -370,3 +370,15 @@ STEPS
     padding: 32px 0;
     padding-left: 64px;
 }
+
+
+/* 
+
+Values
+
+*/
+
+
+.values__list {
+    display: flex;
+}
