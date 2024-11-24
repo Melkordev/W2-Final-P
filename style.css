@@ -406,3 +406,15 @@ Values
     line-height: 1.625;
     color: #718096;
 }
+
+
+/* 
+
+Values
+
+*/
+
+
+#pricing .row {
+    align-items: center;
+}
