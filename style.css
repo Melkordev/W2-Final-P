@@ -408,11 +408,14 @@ Values
 }
 
 
+
+
 /* 
 
-Values
+PRICING / VALUES
 
 */
+
 
 
 #pricing .row {
@@ -421,18 +424,6 @@ Values
     align-items: center;
 }
 
-
-/* 
-
-PRICING
-
-*/
-
-
-
-.plans {
-
-}
 
 
 .plan {
