@@ -563,6 +563,11 @@ TESTIMONIALS
 
 .testimonials__text {
     width: 50%;
+    padding-left: 64px;
+}
+
+.testimonial {
+    margin-top: 40px;
 }
 
 .testimonial__title {
