@@ -717,3 +717,19 @@ TESTIMONIALS
     margin: 1px;
     z-index: 2;
 }
+
+
+/* 
+
+FOOTER
+
+*/
+
+
+footer {
+    padding: 96px 32px;
+    background-color: rgb(100, 21, 255);
+    margin-bottom: -32px;
+    position: relative;
+    overflow: hidden;
+}
