@@ -734,6 +734,10 @@ footer {
     overflow: hidden;
 }
 
+.footer__row {
+    display: grid;
+}
+
 .footer__columns {
     margin-top: -48px;
     display: flex;
@@ -760,6 +764,17 @@ footer {
     height: 2px;
     margin: 64px 0;
     background: rgb(116, 44, 255);
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
 }
 
 .footer__logo--img {
