@@ -794,3 +794,38 @@ footer {
     color: #cbd5e0;
     font-weight: 500;
 }
+
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
+@media (max-width: 728px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+        max-width: 728px;
+        width: 100%;
+    }
+
+    .header__description {
+        max-width: 728px;
+        width: 100%;
+    }
+
+    .header__email {
+        flex-direction: column;
+        display: flex;
+        height: auto;
+    }
+
+    .header__email--input {
+        position: static;
+    }
+
+    .header__email--btn {
+        width: 100%;
+        padding: 18px 0;
+        margin: 18px 0;
+    }
+
+        
+}
