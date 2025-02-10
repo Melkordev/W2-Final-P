@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W2 Final Project</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/5ebc8857b9.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -29,15 +30,14 @@
                         <li><a class="nav__link nav__link--Signup" href="">Sign Up</a></li>
                     </ul>
                 </div>
-            </div>
-            <button class="btn__menu">
+            <button class="btn__menu" onclick="openMenu()">
                 <i class="fa-solid fa-bars"></i>
             </button>
             <div class="menu__backdrop">
-                <button class="btn__menu btn__menu--close">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
-                <ul>
+                <ul class="menu__links">
                     <li class="menu__list">
                         <a href="#" class="menu__link">About</a>
                     </li>
@@ -51,8 +51,9 @@
                         <a href="#" class="menu__link">Contact Us</a>
                     </li>
                 </ul>
-
             </div>
+        </div>
+
         </nav>
         <header>
             <div class="container">
