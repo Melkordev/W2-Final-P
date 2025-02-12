@@ -8,7 +8,7 @@
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/5ebc8857b9.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="menu--open">
     <section id="Landing">
         <nav>
             <div class="nav__row">
@@ -29,10 +29,10 @@
                         <li><a class="nav__link nav__link--login" href="">Login</a></li>
                         <li><a class="nav__link nav__link--Signup" href="">Sign Up</a></li>
                     </ul>
+                    <button class="btn__menu" onclick="openMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </div>
-            <button class="btn__menu" onclick="openMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </button>
             <div class="menu__backdrop">
                 <button class="btn__menu btn__menu--close" onclick="closeMenu()">
                     <i class="fa-solid fa-xmark"></i>
