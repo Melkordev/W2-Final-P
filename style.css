@@ -175,22 +175,9 @@ h1 {
     display: none;
 }
 
-.menu__backdrop {
-    position: absolute;
-    background-color: #6415ff;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-    align-items: center;
-    justify-content: center;
-    display: none;
-}
 
-.menu--open .menu__backdrop {
-    display: flex;
-}
+
+
 
 
 /* Header */
@@ -905,4 +892,26 @@ footer {
     .btn__menu {
         display: block;
     }
+
+    .menu__backdrop {
+        position: absolute;
+        background-color: #6415ff;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 300ms ease;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .menu--open .menu__backdrop {
+        visibility: visible;
+        opacity: 1;
+    }
 }
+
