@@ -730,6 +730,7 @@ TESTIMONIALS
 .start__buttons {
     display: flex;
     justify-content: flex-end;
+    z-index: 2;
 }
 
 .start__button:nth-child(1) {
@@ -864,6 +865,11 @@ footer {
 
     .section__title {
         font-size: 26px;
+        text-align: center;
+    }
+
+    .section__tag {
+        text-align: center;
     }
 
     .header__email--input {
@@ -993,6 +999,121 @@ footer {
    
 
     
+    .plans {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 32px;    }
+
+    .plan {
+        width: 100%;
+        max-width: 360px;
+        margin: 0;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        position: relative;
+        z-index: 100;
+        background: #fff;
+        margin-top: 32px;
+    }
+
+
+
+
+
+    .testimonials__image--wrapper {
+        width: 100%;
+    }
+
+    .testimonials__text {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .testimonial__bottom {
+        flex-direction: column;
+        
+    }
+
+    .testimonial__profile {
+        flex-direction: column;
+    }
+
+    .testimonial__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+
+    .start__title, .start__buttons {
+        width: 100%;
+    }
+
+    .start__row {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1024px;
+        padding: 0 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .start__buttons {
+        display: flex;
+        justify-content: flex-end;
+        z-index: 2;
+        flex-direction: column;
+        padding-top: 32px;
+        
+    }
+
+    .start__button:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .start__button--bottom {
+        margin-top: 16px;
+    }
+
+
+
+
+
+
+
+    .footer__columns {
+        margin-top: -48px;
+        display: flex;
+        justify-content: cent;
+        flex-wrap: wrap;
+    }
+
+    .footer__column {
+        width: auto;
+        padding: 0 16px;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     .menu__links {
         display: flex;
